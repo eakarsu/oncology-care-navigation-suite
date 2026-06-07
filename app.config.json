@@ -1,0 +1,145 @@
+{
+  "slug": "oncology-care-navigation-suite",
+  "title": "Oncology Care Navigation Suite",
+  "buyer": "Oncology practices, cancer centers, payer navigation teams",
+  "description": "Oncology pathway management, treatment planning, biomarker readiness, navigation tasks, authorizations, and survivorship.",
+  "modules": [
+    {
+      "id": "patient-navigation",
+      "table": "patientNavigation",
+      "label": "Patient Navigation",
+      "description": "Patient Navigation workspace for Oncology Care Navigation Suite.",
+      "subfeatures": [
+        "New diagnosis intake",
+        "Barrier screening",
+        "Navigator tasks"
+      ],
+      "prefix": "PN",
+      "seedValues": [
+        "New diagnosis intake",
+        "Barrier screening",
+        "Navigator tasks"
+      ]
+    },
+    {
+      "id": "treatment-plans",
+      "table": "treatmentPlans",
+      "label": "Treatment Plans",
+      "description": "Treatment Plans workspace for Oncology Care Navigation Suite.",
+      "subfeatures": [
+        "Regimen tracking",
+        "Line of therapy",
+        "Dose modifications"
+      ],
+      "prefix": "TP",
+      "seedValues": [
+        "Regimen tracking",
+        "Line of therapy",
+        "Dose modifications"
+      ]
+    },
+    {
+      "id": "biomarkers",
+      "table": "biomarkers",
+      "label": "Biomarker Readiness",
+      "description": "Biomarker Readiness workspace for Oncology Care Navigation Suite.",
+      "subfeatures": [
+        "NGS orders",
+        "Pathology reports",
+        "Result follow-up"
+      ],
+      "prefix": "BR",
+      "seedValues": [
+        "NGS orders",
+        "Pathology reports",
+        "Result follow-up"
+      ]
+    },
+    {
+      "id": "authorization",
+      "table": "authorization",
+      "label": "Authorization",
+      "description": "Authorization workspace for Oncology Care Navigation Suite.",
+      "subfeatures": [
+        "Regimen PA",
+        "Peer-to-peer",
+        "Denial appeal"
+      ],
+      "prefix": "A",
+      "seedValues": [
+        "Regimen PA",
+        "Peer-to-peer",
+        "Denial appeal"
+      ]
+    },
+    {
+      "id": "toxicity",
+      "table": "toxicity",
+      "label": "Toxicity Monitoring",
+      "description": "Toxicity Monitoring workspace for Oncology Care Navigation Suite.",
+      "subfeatures": [
+        "Symptom calls",
+        "CTCAE grade",
+        "Escalation"
+      ],
+      "prefix": "TM",
+      "seedValues": [
+        "Symptom calls",
+        "CTCAE grade",
+        "Escalation"
+      ]
+    },
+    {
+      "id": "clinical-trials",
+      "table": "clinicalTrials",
+      "label": "Trial Matching",
+      "description": "Trial Matching workspace for Oncology Care Navigation Suite.",
+      "subfeatures": [
+        "Eligibility",
+        "Site routing",
+        "Screening status"
+      ],
+      "prefix": "TM",
+      "seedValues": [
+        "Eligibility",
+        "Site routing",
+        "Screening status"
+      ]
+    },
+    {
+      "id": "survivorship",
+      "table": "survivorship",
+      "label": "Survivorship",
+      "description": "Survivorship workspace for Oncology Care Navigation Suite.",
+      "subfeatures": [
+        "Care plans",
+        "Surveillance",
+        "Supportive care"
+      ],
+      "prefix": "S",
+      "seedValues": [
+        "Care plans",
+        "Surveillance",
+        "Supportive care"
+      ]
+    },
+    {
+      "id": "financial-help",
+      "table": "financialHelp",
+      "label": "Financial Assistance",
+      "description": "Financial Assistance workspace for Oncology Care Navigation Suite.",
+      "subfeatures": [
+        "Copay programs",
+        "Foundation grants",
+        "Out-of-pocket"
+      ],
+      "prefix": "FA",
+      "seedValues": [
+        "Copay programs",
+        "Foundation grants",
+        "Out-of-pocket"
+      ]
+    }
+  ],
+  "port": 5604
+}
